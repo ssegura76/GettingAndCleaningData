@@ -21,13 +21,13 @@ X, Y and Z directions.The experiments have been carried out with a group of 30 v
 ## Database transformation
 
 The original data was appended as follows:
-1. X_test.txt and X_train.txt were appended and a "key" called "id" was created as a sequence variable.
-2. y_test.txt and y_train.txt were appended and a "key" called "id" was created as a sequence variable.
-3. subject_test.tx and subject_train.txt were appended and a "key" called "id" was created as a sequence variable.
-4. The activities where extracted from the "features.txt" archive, and a key was created called "activity code".
-5. Databases formed in 1, 2 and 3 where merged using the "id", and then merged with the database of 4 by de Activity code.
-6. The variables measurements on the mean and standard deviation were extracted.
-7. The mean was calculated por each subject and each activity.
+* 1. X_test.txt and X_train.txt were appended and a "key" called "id" was created as a sequence variable.
+* 2. y_test.txt and y_train.txt were appended and a "key" called "id" was created as a sequence variable.
+* 3. subject_test.tx and subject_train.txt were appended and a "key" called "id" was created as a sequence variable.
+* 4. The activities where extracted from the "features.txt" archive, and a key was created called "activity code".
+* 5. Databases formed in 1, 2 and 3 where merged using the "id", and then merged with the database of 4 by de Activity code.
+* 6. The variables measurements on the mean and standard deviation were extracted.
+* 7. The mean was calculated por each subject and each activity.
 
 Each variable shows the AVERAGE FOR EACH SUBJECT AND EACH ACTIVITY, of the mean and standard deviation value for the variable, for a 
 total of 66 NUMERICAL variables, and 2 variables for the agrupation: subject (numerical variable that identifies each subject of
